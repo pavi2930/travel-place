@@ -1,0 +1,36 @@
+section{
+    display:flex;
+    justify-content:center;
+    gap: 18px;
+    padding-top:70px;
+}
+.card{
+    width: 280px;
+    height: 480px;
+    background-color: white;
+    text-align: center;
+    padding-top:40px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card h2{
+    font-size:30px;
+    margin-top:25px;
+    font-family: georgia, serif;
+}
+.card p{
+    font-size:16px;
+    padding:0 20px;
+    line-height: 18px;    
+}
+.icons{
+    margin-top:15px;
+}
+.icons i{
+    margin:0 5px;
+    font-size:16px;
+}
